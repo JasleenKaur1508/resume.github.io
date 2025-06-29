@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container" id="resume-content">
+        <!-- Header -->
+	<div class="header">
+            <div class="header-left">
+                <div class="cv-text">Curriculum Vitae</div>
+            </div>
+            <div class="divider"></div>
+            <div class="header-center">
+                <h1 class="name">Ivy Taylor</h1>
+                <p class="position">Data Analyst</p>
+            </div>
+            <div class="divider"></div>
+            <div class="header-right">
+                <div>Address - Street line</div>
+                <div>City, ST 10003</div>
+                <div>T 000 00 0 0000</div>
+                <div class="reference-email">Ivy.Taylor46@gmail.com</div>
+            </div>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="section">
+            <div class="section-header">
+                <div class="section-line"></div>
+                <h2 class="section-title">Resume Objective</h2>
+            </div>
+            <div class="about-content">
+               Driven and curious Data analyst with expirence working with python,SQL,Tableau,and several more programming language.With a passion for creative 		innovation and solving complex problem , I am eager to further implement my skills and improve my data analysis experience with a detail driven-data 		team like Amazon's.
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="section">
+            <div class="section-header">
+                <div class="section-line"></div>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="two-column">
+                <div class="experience-item">
+                    <div class="job-title">Data Analyst</div>
+		<div class="comp">Fountain House</div>
+                    <div class="job-details">New York — 2012-2015</div>
+                    <div class="job-description">
+                      
+                        <ul>
+                            <liBuilt out the data and reporting infrastructure from the ground up using Tableau and SQL to provide real time insights into the product, 				marketing funnels,and business KPIs</li>
+			<li>Designed and implemented A/B experiments for products to improve the conversion rate by 19 basis points and reduce the churn by 12 basis 				points</li>
+			<li>Implemented long term pricing experiment that improved customer value by 25%</li>
+			<li>Successfully led a team of 2 full-time employees and 4 contractors to complete projects on time, enhancing collaboration by implementing 			effective communication strategies..</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="job-title">Product Modelling Analyst</div>
+			<div class="comp">Geico</div>
+                    <div class="job-details">Washington D.C.— 2005-2012</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Developed and owned reporting for a nationwide retention program with Python,SQL,and Excel, saving~90 hours of monthly labour
+			<li>Identified procedural areas of improvement through customer data, using SQL to help improve the profitability of a nation wide retention 				program by 8% </li>
+			<li>Utilized advanced predictive models to analyze repair costs for 50+ vehicle models, improving stakeholder decision-making by 30%</
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <div class="section-header">
+                <div class="section-line"></div>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="two-column">
+                <div class="education-item">
+                    <div class="job-title">University of Pittusburg</div>
+                    <div class="job-details">Sept 2003-April2005</div>
+                    <div class="comp"> B.S. Mathematics and Economics 
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- Skills Section -->
+        <div class="section">
+            <div class="section-header">
+                <div class="section-line"></div>
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div>
+                    <div class="skill-item">
+                        <div class="comp skill-name"> SQL </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="comp">Pyhton</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="comp">Excel/Google Sheets</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="skill-item">
+                        <div class="comp">tableau</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="comp">Statistical Analysis</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="65"></div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <button class="download-btn" onclick="downloadResume()">
+        <span id="download-text">Download Resume</span>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
